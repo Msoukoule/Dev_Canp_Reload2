@@ -1,0 +1,25 @@
+footer {
+    height: 200px;
+    background-color: #191A1D;
+    color: #cbcbcb;
+}
+footer > .codepen-for-sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+footer > .codepen-for-sect > .sect {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 10px;
+    border: 1px solid #676767;
+    background-color: #36383F;
+}
+footer > .codepen-for-sect > .sect span {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+    font-family: 900;
+}

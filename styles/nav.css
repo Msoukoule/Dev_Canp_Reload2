@@ -1,0 +1,116 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    height: 115px;
+    width: 100%;
+}
+.left-side-nav  {
+    display: flex;
+    flex-direction: row;
+}
+.left-side-nav > .logo {
+    display: flex;
+    align-items: center;
+}
+
+.left-side-nav > .logo img {
+    width: 200px;
+    height: auto;
+    padding-left: 15px;
+    background-color: black;
+}
+.left-side-nav > .explore-group {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.left-side-nav > .explore-group > .explore {
+    color: #E1D074;
+}
+.left-side-nav > .explore-group > .tab-list {
+    display: flex;
+    color: white;
+}
+.left-side-nav > .explore-group > .tab-list > .tabs {
+    display: flex;
+}
+.left-side-nav > .explore-group > .tab-list > .tabs > .tab {
+    padding-right: 20px;
+    font-weight: 900;
+}
+.left-side-nav > .explore-group > .tab-list > .tabs > .tab a {
+    text-decoration: none;
+    color: white;
+    
+}
+.left-side-nav > .spark {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #979797;
+    height:100%;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.left-side-nav > .spark span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-nav > .spark span i {
+    margin-left: 20px;
+}
+
+.account-start-up-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 700px;
+}
+.account-start-up-links > .account-buttons {
+    display: flex;
+}
+
+.account-start-up-links > .account-buttons > .button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    margin-left: 7.5px;
+    margin-right: 7.5px; 
+    padding: 20px 25px;
+    background-color: #36383F;
+    border-radius: 5px;
+
+}  
+.account-start-up-links > .account-buttons > .button a {
+    text-decoration: none; 
+    color: #cbcbcb;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.account-start-up-links > .account-buttons :nth-child(1) i {
+    font-size: 1.5em;
+    color: #46B16D;
+    margin-left: 15px;
+}
+.account-start-up-links > .account-buttons :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #000000;
+}
+.account-start-up-links > .account-buttons :nth-child(2) i {
+    font-size: 2em;
+    font-weight: 700;
+    color: #7B7E8B;
+}
